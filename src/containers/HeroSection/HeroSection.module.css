@@ -1,0 +1,5 @@
+.heroBg {
+  background-image: url("/images/hero-bg.png");
+  height: 700px;
+  opacity: 0.9;
+}
