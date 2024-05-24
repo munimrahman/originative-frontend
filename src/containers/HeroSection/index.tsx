@@ -6,7 +6,7 @@ import macbook from "@/assets/macbook.png";
 const HeroSection = () => {
   return (
     <section className={`${classes.heroBg}`}>
-      <div className="py-36">
+      <div className="py-32">
         <h1 className="text-center text-[3.5rem] uppercase font-medium leading-[5.5rem]">
           Originative HELPS
           <div className="inline-flex relative ms-4 overflow-visible w-48">
