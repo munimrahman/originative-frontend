@@ -1,0 +1,26 @@
+/* ServiceCard.module.css */
+.details {
+  transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+  height: 0;
+  transform: translateY(-10px);
+  overflow: hidden;
+}
+
+.groupHover {
+  transform: translateY(0);
+  height: auto;
+  /* transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out; */
+}
+
+.img {
+  transform: rotate(-25deg);
+  transition: transform 0.7s ease-in-out;
+}
+
+.imgHover {
+  transform: scale(1.05);
+}
+
+.icon {
+  transform: rotate(-45deg);
+}

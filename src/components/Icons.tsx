@@ -490,3 +490,40 @@ export const SeparatorIcon = ({
     </g>
   </svg>
 );
+
+export const ArrowRightV2Icon = ({
+  className,
+  width,
+  height,
+  fill,
+  stroke,
+  strokeClassName,
+}: IconsProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width || "36"}
+    height={height || "36"}
+    viewBox="0 0 36 36"
+    fill={fill || "none"}
+  >
+    <g clip-path="url(#clip0_81_545)">
+      <path
+        d="M5.625 18.5049H30.375M30.375 18.5049L20.25 8.37988M30.375 18.5049L20.25 28.6299"
+        stroke={stroke || "#453C4F"}
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_81_545">
+        <rect
+          width="36"
+          height="36"
+          fill="white"
+          transform="translate(0 0.504883)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
