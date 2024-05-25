@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-black text-white mx-4 px-24 py-28 rounded-xl">
+    <section className="bg-black text-white mx-4 px-20 py-24 rounded-xl">
       <p className="text-blue-100">Wo We Are</p>
       <h2 className="text-[3.25rem] font-semibold leading-tight">
         Crafting Global Digital <br className="hidden md:block" /> Excellence
