@@ -4,6 +4,7 @@ import HeroSection from "@/containers/HeroSection";
 import PortfolioSlider from "@/containers/PortfolioSlider";
 import AboutUs from "@/containers/AboutUs";
 import ServiceSliderOne from "@/containers/ServiceSliderOne";
+import ServiceSection from "@/containers/ServiceSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <PortfolioSlider />
       <AboutUs />
       <ServiceSliderOne />
+      <ServiceSection />
     </main>
   );
 }

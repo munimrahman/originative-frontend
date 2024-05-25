@@ -1,9 +1,7 @@
-import ServiceSlide from "@/components/ServiceSlide";
-
 const serviceData: string[] = [];
 
 const ServiceSliderTwo = () => {
-  return <ServiceSlide data={serviceData} />;
+  return <></>;
 };
 
 export default ServiceSliderTwo;

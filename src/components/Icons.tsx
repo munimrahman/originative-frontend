@@ -447,3 +447,46 @@ export const PenIcon = ({
     />
   </svg>
 );
+
+export const SeparatorIcon = ({
+  className,
+  width,
+  height,
+  fill,
+  stroke,
+  strokeClassName,
+}: IconsProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width || 42}
+    height={height || 42}
+    viewBox="0 0 42 42"
+    fill={fill || "none"}
+    className={className}
+  >
+    <mask
+      id="mask0_1_1045"
+      style={{
+        maskType: "luminance",
+      }}
+      maskUnits="userSpaceOnUse"
+      x={3}
+      y={1}
+      width={36}
+      height={35}
+    >
+      <path
+        d="M38.4828 1.11426H3.79724V35.8001H38.4828V1.11426Z"
+        fill="white"
+      />
+    </mask>
+    <g mask="url(#mask0_1_1045)">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M3.79001 18.6877C7.743 20.6561 13.7475 19.2223 17.1396 22.276C20.0157 24.8651 20.1714 31.2142 21.188 35.7996C26.4845 20.9759 18.4423 21.5496 38.475 18.4182C34.5141 16.5237 27.6516 17.5179 24.7261 14.9188C21.7546 12.2788 22.0632 5.12901 20.4151 1.11401C18.0987 18.1151 19.6019 15.3494 3.79001 18.6877Z"
+        fill="#560FB8"
+      />
+    </g>
+  </svg>
+);
