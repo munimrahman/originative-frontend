@@ -13,7 +13,7 @@ const serviceData: string[] = [
 const ServiceSliderOne = () => {
   return (
     <section className="my-20">
-      <div className="bg-gray-100 py-8">
+      <div className="bg-grey-100 py-8">
         <Marquee pauseOnHover>
           <div className="flex gap-6">
             {serviceData.map((item, index) => (

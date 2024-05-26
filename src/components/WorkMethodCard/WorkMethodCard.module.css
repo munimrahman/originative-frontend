@@ -1,0 +1,25 @@
+.numberGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 11, 255, 0.2) 0%,
+    rgba(151, 71, 255, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hoverNumberGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(151, 71, 255, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .hoverAnimation {
+  translate: ;
+} */

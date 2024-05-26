@@ -33,7 +33,7 @@ const ServiceCard = ({ isLastChild }: Props) => {
                 groupHover ? classes.groupHover : "duration-700"
               }`}
             >
-              <p className="my-8 text-gray-800 text-sm">
+              <p className="my-8 text-grey-800 text-sm">
                 Transforming ideas into captivating digital experiences, our
                 UI/UX design service ensures seamless navigation and user
                 engagement. Elevate your brand with intuitive designs tailored
