@@ -6,6 +6,7 @@ import AboutUs from "@/containers/AboutUs";
 import ServiceSliderOne from "@/containers/ServiceSliderOne";
 import ServiceSection from "@/containers/ServiceSection";
 import HowWeWork from "@/containers/HowWeWork";
+import ExplorePortfolio from "@/containers/ExplorePortfolio";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ServiceSliderOne />
       <ServiceSection />
       <HowWeWork />
+      <ExplorePortfolio />
     </main>
   );
 }

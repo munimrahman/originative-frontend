@@ -19,7 +19,7 @@ const HowWeWork = () => {
   const items = [1, 2, 3, 4, 5, 6, 7];
 
   return (
-    <section className="my-20 px-8 py-24 bg-black mx-4 rounded-xl">
+    <section className="mt-20 px-8 py-20 bg-black mx-4 rounded-xl">
       <SectionTitle
         className="container"
         sectionInfo={sectionHeaderInfo}
@@ -29,7 +29,7 @@ const HowWeWork = () => {
       <Swiper
         spaceBetween={12}
         slidesPerView={1.4}
-        slidesPerGroup={3}
+        slidesPerGroup={1}
         speed={700}
         breakpoints={{
           500: {
