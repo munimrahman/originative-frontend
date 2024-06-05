@@ -1,0 +1,6 @@
+.reviewBg {
+  background-image: url(/images/review-bg.png);
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}

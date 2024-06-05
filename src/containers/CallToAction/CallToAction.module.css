@@ -1,0 +1,6 @@
+.bgRing {
+  background-image: url(/images/bg-ring.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: right;
+}

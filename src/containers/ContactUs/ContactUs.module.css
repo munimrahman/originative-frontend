@@ -1,0 +1,6 @@
+.bgRing {
+  background-image: url(/images/contact-bg.png);
+  background-size: 50%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
